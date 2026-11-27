@@ -1,8 +1,7 @@
-*.xcodeproj/
-build/
-DerivedData/
-.build/
-.swiftpm/
-Payload/
-*.ipa
-.DS_Store
+node_modules
+.next
+.env*
+!.env.example
+*.tsbuildinfo
+next-env.d.ts
+.vercel
